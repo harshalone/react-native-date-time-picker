@@ -2,6 +2,11 @@
 
 This repository provides reusable Date Picker and Time Picker components for React Native projects. These components are designed to be easy to integrate and customise according to your project's requirements.
 
+If you are using date time picker and your app is crashing on test flight than there is a possibility that date-time-picker or any other picker 
+package is causing it.
+
+To resolve this issue i created this new and enganced version of date time picker without the hassle of crashing the apps.
+
 ## Installation
 
 To use these components in your React Native project, follow these steps:

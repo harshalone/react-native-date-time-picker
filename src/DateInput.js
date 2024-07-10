@@ -187,8 +187,8 @@ function DateInput(props) {
 }
 
 const styles = StyleSheet.create({
-  wrapper: {
-    marginVertical: 6,
+  wrapper: { 
+    marginTop: 21
   },
   title: {
     fontSize: 18,

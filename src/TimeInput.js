@@ -136,7 +136,7 @@ function TimeInput(props) {
 
 const styles = StyleSheet.create({
   wrapper: {
-    marginVertical: 4,
+    marginTop: 21,
   },
   title: {
     fontSize: 18,
