@@ -1,6 +1,6 @@
 {
   "name": "lonare-react-native-date-time-picker",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "This npm package provides a simple and customizable date and time picker component using React Native Modal. It is designed to integrate seamlessly with both Expo and React Native CLI projects, allowing you to easily add date and time selection functionality to your mobile applications.",
   "main": "src/index.js",
   "scripts": {
