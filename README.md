@@ -7,6 +7,21 @@ package is causing it.
 
 To resolve this issue i created this new and enganced version of date time picker without the hassle of crashing the apps.
 
+## Screenshots
+![Mobile Date Picker](images/1.png)
+![Mobile Time Picker](images/2.png)
+![iPad Date Picker](images/3.png)
+![iPad Time Picker](images/4.png)
+
+
+### Key Features
+
+- **Customizable UI**: Easily style the date and time picker components to match your app's design.
+- **Simple Integration**: Add date and time picking functionality to your app with minimal setup.
+- **React Native Modal**: Utilizes the built-in `Modal` component from React Native for cross-platform compatibility.
+- **Support for Expo and React Native CLI**: Works smoothly with both Expo managed workflow and React Native CLI.
+
+
 ## Installation
 
 To use these components in your React Native project, follow these steps:
