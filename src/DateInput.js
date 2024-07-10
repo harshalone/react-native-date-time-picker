@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Text, View, Modal, Pressable, Dimensions, ScrollView, StyleSheet } from 'react-native';
+import { Text, View, Modal, Pressable, Dimensions, ScrollView, StyleSheet, SafeAreaView } from 'react-native';
 
 function DateInput(props) {
   const { setDate, title = "Title of the input", required, wrapperClass } = props;
@@ -63,6 +63,7 @@ function DateInput(props) {
 
   return (
     <>
+    <SafeAreaView>
       <View style={[styles.wrapper, wrapperClass]}>
         <View>
           <Text style={styles.title}>
@@ -180,13 +181,14 @@ function DateInput(props) {
           </Pressable>
         </View>
       </View>
+      </SafeAreaView>
     </>
   );
 }
 
 const styles = StyleSheet.create({
   wrapper: {
-    marginVertical: 4,
+    marginVertical: 6,
   },
   title: {
     fontSize: 18,

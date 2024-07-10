@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Text, View, Modal, Pressable, Dimensions, Alert, ScrollView, StyleSheet } from 'react-native';
+import { Text, View, Modal, Pressable, Dimensions, Alert, ScrollView, StyleSheet, SafeAreaView } from 'react-native';
 
 function TimeInput(props) {
   const { setTime, title = "Select Time", required, wrapperClass } = props;
@@ -33,6 +33,7 @@ function TimeInput(props) {
 
   return (
     <>
+    <SafeAreaView>
       <View style={[styles.wrapper, wrapperClass]}>
         <View>
           <Text style={styles.title}>
@@ -128,6 +129,7 @@ function TimeInput(props) {
           </Pressable>
         </View>
       </View>
+      </SafeAreaView>
     </>
   );
 }

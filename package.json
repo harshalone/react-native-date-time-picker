@@ -1,5 +1,5 @@
 {
-  "name": "react-native-date-time-picker",
+  "name": "lonare-react-native-date-time-picker",
   "version": "1.0.0",
   "description": "This npm package will enable you to implement date time picker with react native modal in your expo or react native app",
   "main": "src/index.js",
