@@ -28,12 +28,12 @@ To use these components in your React Native project, follow these steps:
 
 1. **Install Dependencies**
 
-   Make sure you have `react-native` and `react-native-modal` installed in your project. If not, you can install them using npm or yarn:
+   Make sure you have `react-native` installed in your project. If not, you can install them using npm or yarn:
 
    ```bash
-   npm install react-native react-native-modal
+   npm install lonare-react-native-date-time-picker
    # or
-   yarn add react-native react-native-modal
+   yarn add lonare-react-native-date-time-picker
    ```
 
 2. **Install the Date Picker and Time Picker Components**
@@ -53,9 +53,10 @@ Here's how you can use the Date Picker and Time Picker components in your React 
 ```javascript
 import React, { useState } from 'react';
 import { View, Text } from 'react-native';
-import { DateInput, TimeInput } from 'react-native-date-time-picker';   
+import { DateInput, TimeInput } from 'lonare-react-native-date-time-picker';   
 
 function App() {
+
   const [selectedDate, setSelectedDate] = useState('');
   const [selectedTime, setSelectedTime] = useState('');
 
@@ -66,6 +67,7 @@ function App() {
         setDate={setSelectedDate}
         wrapperClass="my-1" // Optional: Custom CSS classes
         required={true} // Optional: Whether the field is required
+        modalWrapperClass={{ marginTop: 50 } } 
       />
       <Text style={{ marginVertical: 10 }}>Selected Date: {selectedDate}</Text>
 
@@ -74,6 +76,7 @@ function App() {
         setTime={setSelectedTime}
         wrapperClass="my-1" // Optional: Custom CSS classes
         required={true} // Optional: Whether the field is required
+        modalWrapperClass={{ marginTop: 50 } } 
       />
       <Text>Selected Time: {selectedTime}</Text>
     </View>
