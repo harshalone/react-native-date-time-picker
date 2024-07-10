@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, Modal, Pressable, Dimensions, ScrollView, StyleSheet, SafeAreaView } from 'react-native';
 
 function DateInput(props) {
-  const { setDate, title = "Title of the input", required, wrapperClass } = props;
+  const { setDate, title = "Title of the input", required, wrapperClass, modalWrapperClass } = props;
   const screenHeight = Dimensions.get('window').height;
   const screenWidth = Dimensions.get('window').width;
   const currentDate = new Date();
@@ -80,7 +80,7 @@ function DateInput(props) {
             }}
             style={styles.modal}
           >
-            <ScrollView>
+            <ScrollView style={modalWrapperClass}>
               <View style={styles.modalContainer}>
                 <View style={styles.modalContent}>
                   <Pressable

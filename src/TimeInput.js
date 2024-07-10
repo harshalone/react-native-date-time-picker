@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, Modal, Pressable, Dimensions, Alert, ScrollView, StyleSheet, SafeAreaView } from 'react-native';
 
 function TimeInput(props) {
-  const { setTime, title = "Select Time", required, wrapperClass } = props;
+  const { setTime, title = "Select Time", required, wrapperClass, modalWrapperClass } = props;
   const screenHeight = Dimensions.get('window').height;
   const screenWidth = Dimensions.get('window').width;
   const [modalVisible, setModalVisible] = useState(false);
@@ -51,7 +51,7 @@ function TimeInput(props) {
             }}
             style={styles.modal}
           >
-            <ScrollView>
+            <ScrollView style={modalWrapperClass}>
               <View style={styles.modalContainer}>
                 <View style={styles.modalContent}>
                   <Pressable
