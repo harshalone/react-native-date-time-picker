@@ -1,0 +1,44 @@
+{
+  "name": "react-native-date-time-picker",
+  "version": "1.0.0",
+  "description": "This npm package will enable you to implement date time picker with react native modal in your expo or react native app",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'No build step necessary'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshalone/react-native-date-time-picker.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "react",
+    "native",
+    "date",
+    "picker",
+    "react",
+    "native",
+    "time",
+    "picker",
+    "react-native",
+    "datepicker",
+    "date-picker",
+    "time-picker"
+  ],
+  "author": "Lonare",
+  "license": "MIT",
+  "files": [
+    "src"
+  ],
+  "bugs": {
+    "url": "https://github.com/harshalone/react-native-date-time-picker/issues"
+  },
+  "homepage": "https://github.com/harshalone/react-native-date-time-picker#readme",
+  "types": "src/index.d.ts",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-native": "^0.64.0 || ^0.65.0 || ^0.66.0 || ^0.67.0"
+  }
+}
